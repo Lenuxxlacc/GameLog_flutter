@@ -1,2 +1,3 @@
-# GameLog_flutter
-İstinye Üniversitisinde Öğrenciyim
+# flutter_app
+
+A new Flutter project.
