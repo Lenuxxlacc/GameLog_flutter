@@ -10,7 +10,7 @@ oyun oynamayı seven kişiler için ise farklı oyunlar ve arkadaşlar bulabilec
 oynadıkları oyunları ve bu oyunlardaki ilerlemelerini takip edebilirler level görev  başarımlar ve ödüller gibi oyun içi verileri kaydedebilirler  
 
 ## Ekibimiz 
-**Danışman** Keyvan Arasteh
+**Danışman** Keyvan Arasteh [GitHub] (https://github.com/keyvanarasteh)
 **Takım Üyeleri:**
   - X [GitHub](https://github.com/Lenuxxlacc)
 
