@@ -1,5 +1,12 @@
+import 'package:dotlottie_loader/dotlottie_loader.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_app/core/constants.dart';
+import 'package:flutter_app/core/routes.dart';
+import 'package:go_router/go_router.dart';
+import 'package:lottie/lottie.dart';
+
+import '../widgets/bottom_menu.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -7,95 +14,90 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // AppBar
-      appBar: AppBar(
-        title: const Text('Ana Sayfa'),
-        actions: [
-          IconButton(
-            icon: const Icon(CupertinoIcons.bell),
-            onPressed: () {},
+        backgroundColor: arkaplanRengim,
+        // AppBar
+        appBar: AppBar(
+          backgroundColor: Color.fromARGB(255, 29, 29, 54),
+          title: const Text(
+            'GameLog',
+            style: TextStyle(color: Colors.white),
           ),
-        ],
-      ),
-
-      // Drawer (Yan Menü)
-      drawer: Drawer(
-        child: Column(
-          children: [
-            // Drawer Header
-            Container(
-              height: 200,
-              color: Colors.blue,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(
-                    CupertinoIcons.person_circle,
-                    size: 80,
-                    color: Colors.white,
-                  ),
-                  const SizedBox(height: 10),
-                  const Text(
-                    'Kullanıcı Adı',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            // Menü öğeleri
-            ListTile(
-              leading: const Icon(CupertinoIcons.home),
-              title: const Text('Ana Sayfa'),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
-              leading: const Icon(CupertinoIcons.settings),
-              title: const Text('Ayarlar'),
-              onTap: () {
-                Navigator.pop(context);
-              },
+          actions: [
+            IconButton(
+              icon: const Icon(color: Colors.white, CupertinoIcons.app),
+              onPressed: () {},
             ),
           ],
         ),
-      ),
 
-      // Ana içerik
-      body: Column(
-        children: [
-          Expanded(
-            child: Container(
-              padding: const EdgeInsets.all(16),
-              child: const Text('Ana Sayfa İçeriği'),
+        // Drawer (Yan Menü)
+        drawer: Drawer(
+          backgroundColor: arkaplanRengim,
+          child: Column(
+            children: [
+              // Drawer Header
+              Container(
+                height: 200,
+                //color: Colors.blue,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Icon(
+                      CupertinoIcons.person_circle,
+                      size: 80,
+                      color: Colors.black87,
+                    ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      'Kullanıcı Adı',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              // Menü öğeleri
+
+              ListTile(
+                leading: const Icon(CupertinoIcons.home),
+                title: const Text('Ana Sayfa'),
+                onTap: () {
+                  Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                leading: const Icon(CupertinoIcons.person),
+                title: const Text('Profil'),
+                onTap: () {
+                  context.go("/profile");
+                },
+              ),
+              ListTile(
+                leading: const Icon(CupertinoIcons.settings),
+                title: const Text('Ayarlar'),
+                onTap: () {
+                  Navigator.pop(context);
+                },
+              ),
+            ],
+          ),
+        ),
+
+        // Ana içerik
+        body: Column(
+          children: [
+            Expanded(
+              child: Container(
+                padding: const EdgeInsets.all(16),
+                child: const Text(""),
+              ),
             ),
-          ),
-        ],
-      ),
+          ],
+        ),
 
-      // Alt navigasyon çubuğu
-      bottomNavigationBar: BottomNavigationBar(
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.home),
-            label: 'Ana Sayfa',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.search),
-            label: 'Keşfet',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.person),
-            label: 'Profil',
-          ),
-        ],
-        onTap: (index) {
-          // Navigasyon işlemleri buraya gelecek
-        },
-      ),
-    );
+        // Alt navigasyon çubuğu
+        bottomNavigationBar: const BottomMenu());
   }
 }
