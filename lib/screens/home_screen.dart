@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                     const Icon(
                       CupertinoIcons.person_circle,
                       size: 80,
-                      color: Colors.black87,
+                      color: Colors.white,
                     ),
                     const SizedBox(height: 10),
                     const Text(
@@ -62,21 +62,30 @@ class HomeScreen extends StatelessWidget {
 
               ListTile(
                 leading: const Icon(CupertinoIcons.home),
-                title: const Text('Ana Sayfa'),
+                title: const Text(
+                  'Ana Sayfa',
+                  style: TextStyle(color: Colors.white),
+                ),
                 onTap: () {
                   Navigator.pop(context);
                 },
               ),
               ListTile(
                 leading: const Icon(CupertinoIcons.person),
-                title: const Text('Profil'),
+                title: const Text(
+                  'Profil',
+                  style: TextStyle(color: Colors.white),
+                ),
                 onTap: () {
                   context.go("/profile");
                 },
               ),
               ListTile(
                 leading: const Icon(CupertinoIcons.settings),
-                title: const Text('Ayarlar'),
+                title: const Text(
+                  'Ayarlar',
+                  style: TextStyle(color: Colors.white),
+                ),
                 onTap: () {
                   Navigator.pop(context);
                 },
