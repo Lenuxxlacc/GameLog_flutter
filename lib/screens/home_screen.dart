@@ -87,7 +87,7 @@ class HomeScreen extends StatelessWidget {
                   style: TextStyle(color: Colors.white),
                 ),
                 onTap: () {
-                  Navigator.pop(context);
+                  context.go("/ayarlar");
                 },
               ),
             ],

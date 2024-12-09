@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/screens/ayarlar_screen.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
 import 'package:flutter_app/screens/search_screen.dart';
 import 'package:go_router/go_router.dart';
@@ -24,6 +25,10 @@ final router = GoRouter(
     GoRoute(
       path: '/search',
       builder: (context, state) => const SearchScreen(),
+    ),
+    GoRoute(
+      path: '/ayarlar',
+      builder: (context, state) => const AyarlarScreen(),
     ),
   ],
 );
