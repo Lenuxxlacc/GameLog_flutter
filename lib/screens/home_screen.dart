@@ -14,25 +14,27 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: arkaplanRengim,
+
         // AppBar
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 29, 29, 54),
-          title: const Text(
+          backgroundColor: Theme.of(context).colorScheme.surface,
+          title: Text(
             'GameLog',
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(color: Theme.of(context).colorScheme.primary),
           ),
           actions: [
             IconButton(
-              icon: const Icon(color: Colors.white, CupertinoIcons.app),
+              icon: Icon(
+                  color: Theme.of(context).colorScheme.primary,
+                  CupertinoIcons.app),
               onPressed: () {},
             ),
           ],
         ),
 
         // Drawer (Yan Menü)
+
         drawer: Drawer(
-          backgroundColor: arkaplanRengim,
           child: Column(
             children: [
               // Drawer Header
@@ -42,16 +44,16 @@ class HomeScreen extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Icon(
+                    Icon(
                       CupertinoIcons.person_circle,
                       size: 80,
-                      color: Colors.white,
+                      color: Theme.of(context).colorScheme.primary,
                     ),
                     const SizedBox(height: 10),
-                    const Text(
+                    Text(
                       'Kullanıcı Adı',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Theme.of(context).colorScheme.primary,
                         fontSize: 18,
                       ),
                     ),
@@ -62,9 +64,10 @@ class HomeScreen extends StatelessWidget {
 
               ListTile(
                 leading: const Icon(CupertinoIcons.home),
-                title: const Text(
+                title: Text(
                   'Ana Sayfa',
-                  style: TextStyle(color: Colors.white),
+                  style:
+                      TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 onTap: () {
                   Navigator.pop(context);
@@ -72,9 +75,10 @@ class HomeScreen extends StatelessWidget {
               ),
               ListTile(
                 leading: const Icon(CupertinoIcons.person),
-                title: const Text(
+                title: Text(
                   'Profil',
-                  style: TextStyle(color: Colors.white),
+                  style:
+                      TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 onTap: () {
                   context.go("/profile");
@@ -82,9 +86,10 @@ class HomeScreen extends StatelessWidget {
               ),
               ListTile(
                 leading: const Icon(CupertinoIcons.settings),
-                title: const Text(
+                title: Text(
                   'Ayarlar',
-                  style: TextStyle(color: Colors.white),
+                  style:
+                      TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 onTap: () {
                   context.go("/ayarlar");
@@ -95,6 +100,7 @@ class HomeScreen extends StatelessWidget {
         ),
 
         // Ana içerik
+        backgroundColor: Theme.of(context).colorScheme.surface,
         body: Column(
           children: [
             Expanded(

@@ -19,7 +19,7 @@ class BottomMenu extends StatelessWidget {
                 context.go("/home");
               },
               icon: Icon(
-                color: Colors.white,
+                color: Theme.of(context).colorScheme.primary,
                 CupertinoIcons.home,
               ),
             ),
@@ -28,7 +28,7 @@ class BottomMenu extends StatelessWidget {
                 context.go("/search");
               },
               icon: Icon(
-                color: Colors.white,
+                color: Theme.of(context).colorScheme.primary,
                 CupertinoIcons.search,
               ),
             ),
@@ -37,7 +37,7 @@ class BottomMenu extends StatelessWidget {
                 context.go("/profile");
               },
               icon: Icon(
-                color: Colors.white,
+                color: Theme.of(context).colorScheme.primary,
                 CupertinoIcons.person,
               ),
             ),
@@ -45,3 +45,4 @@ class BottomMenu extends StatelessWidget {
         ));
   }
 }
+
