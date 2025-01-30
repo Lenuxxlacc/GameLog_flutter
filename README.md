@@ -76,6 +76,10 @@ yardımcılar/    # Yardımcı Fonksiyonlar
 <img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%209.png" width="400" height="800" />
 <img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%2010.png" width="400" height="800" />
 
+## Proje Videosu
+
+https://drive.google.com/file/d/12n0NiWJCQoP2gUf6PjpUGe6tVMlvUEMk/view?usp=sharing
+
 
 ## Projeye katkı sağlama 
 
