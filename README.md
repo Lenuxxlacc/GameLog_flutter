@@ -65,6 +65,16 @@ yardımcılar/    # Yardımcı Fonksiyonlar
 
 ## Ekran Görüntüleri
 
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%201.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%202.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%203.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%204.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%205.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%206.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%207.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%208.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%209.png" width="400" height="800" />
+<img src="https://github.com/Lenuxxlacc/GameLog_flutter/blob/main/assets/ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC/flutter%20resim%2010.png" width="400" height="800" />
 
 
 ## Projeye katkı sağlama 
