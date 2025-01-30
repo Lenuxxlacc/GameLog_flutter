@@ -20,7 +20,7 @@ Keyvan Arasteh [GitHub] (https://github.com/keyvanarasteh)
 ## Özellikler 
 
  - Oyuncu ve geliştirici profilleri
- - oyucular ve yapımcılar için kategoriler
+ - oyuncular ve yapımcılar için kategoriler
  - Beğeni yorum ve paylaşım özellikleri
 
  ## Kullanılan Teknolojiler 
@@ -64,7 +64,7 @@ yardımcılar/    # Yardımcı Fonksiyonlar
 
 
 ## Ekran Görüntüleri
-[uygulama ekran görüntüleri buraya eklenicek]
+
 
 
 ## Projeye katkı sağlama 
