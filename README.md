@@ -78,7 +78,7 @@ yardımcılar/    # Yardımcı Fonksiyonlar
 
 ## Proje Videosu
 
-https://drive.google.com/file/d/12n0NiWJCQoP2gUf6PjpUGe6tVMlvUEMk/view?usp=sharing
+https://github.com/user-attachments/assets/a165c5e7-c19e-4696-99df-99f556f46ba7
 
 
 ## Projeye katkı sağlama 
